@@ -1,0 +1,7 @@
+storage
+.idea/
+__pycashe__/
+.ipynb_checkpoints/
+.env
+venv/
+*.pyc
