@@ -33,7 +33,7 @@ app.layout = html.Div([html.H1(children="Word Autocomplete",
 def change_suggestion(n_keydowns, input_value, event):
     if event['key'] == 'ArrowRight':
         res = tree.autocomplete(input_value)
-        return input_value + res
+        return res
     else:
         return input_value
 
